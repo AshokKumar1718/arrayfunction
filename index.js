@@ -3,8 +3,8 @@ GreatestOfTwoNumbers = (a,b)=>{
     console.log("a,b",a,b)
     return  a>b? a : b;
 }
-//var larger =GreatestOfTwoNumbers(1,2)
-//console.log(larger)
+var larger =GreatestOfTwoNumbers(1,2)
+console.log(larger)
 
 //-------------------------------------------------------------------------------
 
@@ -25,8 +25,8 @@ if(len < each.length){
 return longword;
 }
 var word = ["dewwed","jhfu","edfaefs","dfrsfrs"];
-//var wordlength = TheLengthyWord(word)
-//console.log("len",wordlength)
+var wordlength = TheLengthyWord(word)
+console.log("len",wordlength)
 
 //-----------------------------------------------
 
@@ -130,7 +130,6 @@ Occourance = (search,element)=>{
            return word;
         }
     });
-    console.log("res",result)
     return result.length
 
     
